@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leo/Desktop/PRALG/tpSTL/tpSTLIniitial/eleve.cpp
+eleve.h
+/home/leo/Desktop/PRALG/tpSTL/tpSTLIniitial/eleve.h
+
+/home/leo/Desktop/PRALG/tpSTL/tpSTLIniitial/eleve.h
+string
+-
+ctime
+-
+iostream
+-
+vector
+-
+
+/home/leo/Desktop/PRALG/tpSTL/tpSTLIniitial/main.cpp
+algorithm
+-
+eleve.h
+/home/leo/Desktop/PRALG/tpSTL/tpSTLIniitial/eleve.h
+

@@ -4,7 +4,7 @@
 
 #include "eleve.h"
 
-const int NB_ELEVES = 10000000; // Nombre d'eleves
+const int NB_ELEVES = 100; // Nombre d'eleves
 
 int main() {
     srand(time(NULL));
@@ -31,16 +31,14 @@ int main() {
     }
 
 
+    // On trie les eleves par note et on compte le nombre de comparaisons effectuees
     int compteur = 0;
     std::sort(eleves.begin(), eleves.end(), CompareNote(compteur));
-    //for (int i = 0; i < NB_ELEVES; ++i)
-        //std::cout << eleves[i].getNom() << "  " << eleves[i].getNote() << std::endl;
     std::cout << "Nombre de comparaisons de notes : " << compteur << std::endl;
 
+    // Puis, on trie les eleves par ordre alphabetique et on compte le nombre de comparaisons effectuees
     compteur = 0;
     std::sort(eleves.begin(), eleves.end(), CompareNom(compteur));
-    //for (int i = 0; i < NB_ELEVES; ++i)
-        //std::cout << eleves[i].getNom() << "  " << eleves[i].getNote() << std::endl;
     std::cout << "Nombre de comparaison de noms : " << compteur << std::endl;
 
 

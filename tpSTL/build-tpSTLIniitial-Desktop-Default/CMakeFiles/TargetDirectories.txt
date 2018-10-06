@@ -1,0 +1,3 @@
+/home/leo/Desktop/PRALG/tpSTL/build-tpSTLIniitial-Desktop-Default/CMakeFiles/rebuild_cache.dir
+/home/leo/Desktop/PRALG/tpSTL/build-tpSTLIniitial-Desktop-Default/CMakeFiles/STL.dir
+/home/leo/Desktop/PRALG/tpSTL/build-tpSTLIniitial-Desktop-Default/CMakeFiles/edit_cache.dir
