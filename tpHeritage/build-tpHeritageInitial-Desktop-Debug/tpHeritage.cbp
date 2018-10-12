@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tpHeritage"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Heritage">
+				<Option output="/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Heritage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 Heritage"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Heritage/fast">
+				<Option output="/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Heritage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 Heritage/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/leo/Desktop/PRALG/tpHeritage/tpHeritageInitial/affine.cpp">
+			<Option target="Heritage"/>
+		</Unit>
+		<Unit filename="/home/leo/Desktop/PRALG/tpHeritage/tpHeritageInitial/affine.h">
+			<Option target="Heritage"/>
+		</Unit>
+		<Unit filename="/home/leo/Desktop/PRALG/tpHeritage/tpHeritageInitial/fonction.cpp">
+			<Option target="Heritage"/>
+		</Unit>
+		<Unit filename="/home/leo/Desktop/PRALG/tpHeritage/tpHeritageInitial/fonction.h">
+			<Option target="Heritage"/>
+		</Unit>
+		<Unit filename="/home/leo/Desktop/PRALG/tpHeritage/tpHeritageInitial/main.cpp">
+			<Option target="Heritage"/>
+		</Unit>
+		<Unit filename="/home/leo/Desktop/PRALG/tpHeritage/tpHeritageInitial/polynome.cpp">
+			<Option target="Heritage"/>
+		</Unit>
+		<Unit filename="/home/leo/Desktop/PRALG/tpHeritage/tpHeritageInitial/polynome.h">
+			<Option target="Heritage"/>
+		</Unit>
+		<Unit filename="/home/leo/Desktop/PRALG/tpHeritage/tpHeritageInitial/trigo.cpp">
+			<Option target="Heritage"/>
+		</Unit>
+		<Unit filename="/home/leo/Desktop/PRALG/tpHeritage/tpHeritageInitial/trigo.h">
+			<Option target="Heritage"/>
+		</Unit>
+		<Unit filename="/home/leo/Desktop/PRALG/tpHeritage/tpHeritageInitial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

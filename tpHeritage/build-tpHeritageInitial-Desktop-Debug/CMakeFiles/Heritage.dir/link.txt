@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/Heritage.dir/main.cpp.o CMakeFiles/Heritage.dir/fonction.cpp.o CMakeFiles/Heritage.dir/polynome.cpp.o CMakeFiles/Heritage.dir/affine.cpp.o CMakeFiles/Heritage.dir/trigo.cpp.o  -o Heritage 
