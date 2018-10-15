@@ -16,8 +16,9 @@ class Fonction
 protected:
     Fonction* integrale;
 public:
-    Fonction(){}                    // Constructeur vide
+    Fonction(){integrale = 0;}      // Constructeur vide
     Fonction(Fonction* _integrale); // Constructeur pour le calcul de derivees de Trigo
+    ~Fonction();
 
     virtual float operator()(float x) const; // evalue la fonction en x
     virtual Fonction* derivee() const{}      // renvoie la fonction derivee

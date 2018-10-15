@@ -5,6 +5,12 @@ Fonction::Fonction(Fonction *_integrale)
     integrale = _integrale;
 }
 
+Fonction::~Fonction()
+{
+    if (integrale != 0)
+         delete integrale;
+}
+
 float Fonction::operator()(float x) const
 {
     // Cette fonction n'est appelee que si integrale != Null

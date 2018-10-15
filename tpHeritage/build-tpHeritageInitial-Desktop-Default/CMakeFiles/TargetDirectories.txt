@@ -1,3 +1,0 @@
-/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Default/CMakeFiles/Heritage.dir
-/home/leo/Desktop/PRALG/tpHeritage/build-tpHeritageInitial-Desktop-Default/CMakeFiles/edit_cache.dir
