@@ -6,22 +6,23 @@
 #include <iostream>
 #include <string>
 
-// Node of a tree containing an integer at each node
+// Noeud d'un arbre contenant un entier a chaque noeud
 class IntTree {
-    int data; // Node information
-    std::vector<IntTree*> sons; // Sequence of sons (empty if none)
+    int data;                   // Valeur du noeud
+    std::vector<IntTree*> sons; // Liste des noeuds fils (vide s'il n'y en a pas)
 public:
-    IntTree(int d); // Create a node with given information
-    ~IntTree(); // Destruct a node and all its descendants
-    int getData(); // Return information of this node
-    void setData(int d); // Set information of this node
-    int nbSons(); // Return the number of sons of this node
-    IntTree* getSon(int pos); // Return the son at position pos, if any (considering left-most son is at position 0)
-    void setSon(int pos, IntTree* newSon); // Replace the exisiting son at position pos with newSon (left-most son at position 0)
-    void addAsLastSon(IntTree* newSon); // Add newSon as supplementary right-most son of this node
-    void removeLastSon(); // Remove right-most son of this node
+    IntTree(int d);                        // Constructeur d'un noeud de valeur d
+    ~IntTree();                            // Destructeur d'un noeud et de tous ses descendants
 
-    void display(std::string prefix = "", std::string indent = "  ");
+    int getData();                         // Renvoie la valeur du noeud
+    void setData(int d);                   // Modifie la valeur du noeud a d
+    int nbSons();                          // Renvoie le nombre de fils de ce noeuds
+    IntTree* getSon(int pos);              // Renvoie le fils a la position pos de sons (on considere que le fils le plus a gauche a pour position 0)
+    void setSon(int pos, IntTree* newSon); // Remplace le fils a la position pos par newson
+    void addAsLastSon(IntTree* newSon);    // Ajoute un fils supplementaire tout a droite
+    void removeLastSon();                  // Detruit le dernier fils tout a droite
+
+    void display(std::string prefix = "", std::string indent = "  "); // Affiche l'arbre
 };
 
 

@@ -8,9 +8,12 @@ IntTree::IntTree(int d)
 
 IntTree::~IntTree()
 {
+    std::cout << "destructor o.O\n";
     // On detruit tous les fils
     for (int i = 0; i < sons.size(); ++i)
+        // delete appelle a son tour le destructeur, ce qui detruit recursivement l'arbre
         delete sons[i];
+    std::cout << "destructor o.O\n";
 }
 
 int IntTree::getData()
@@ -47,7 +50,8 @@ void IntTree::addAsLastSon(IntTree* newSon)
 void IntTree::removeLastSon()
 {
     assert(sons.size());
-    //delete sons.back();
+    IntTree* a = sons.back();
+    delete a;
     sons.pop_back();
 }
 
