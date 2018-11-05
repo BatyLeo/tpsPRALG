@@ -18,11 +18,12 @@ public:
     void setData(int d);                   // Modifie la valeur du noeud a d
     int nbSons();                          // Renvoie le nombre de fils de ce noeuds
     IntTree* getSon(int pos);              // Renvoie le fils a la position pos de sons (on considere que le fils le plus a gauche a pour position 0)
-    void setSon(int pos, IntTree* newSon); // Remplace le fils a la position pos par newson
+    void setSon(int pos, IntTree* newSon); // Remplace le fils a la position pos par newSon
     void addAsLastSon(IntTree* newSon);    // Ajoute un fils supplementaire tout a droite
     void removeLastSon();                  // Detruit le dernier fils tout a droite
 
     void display(std::string prefix = "", std::string indent = "  "); // Affiche l'arbre
+    void display2(std::string prefix = "", std::string indent = "  ");
 };
 
 

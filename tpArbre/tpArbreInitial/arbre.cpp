@@ -8,12 +8,10 @@ IntTree::IntTree(int d)
 
 IntTree::~IntTree()
 {
-    std::cout << "destructor o.O\n";
     // On detruit tous les fils
     for (int i = 0; i < sons.size(); ++i)
         // delete appelle a son tour le destructeur, ce qui detruit recursivement l'arbre
         delete sons[i];
-    std::cout << "destructor o.O\n";
 }
 
 int IntTree::getData()
@@ -33,11 +31,17 @@ int IntTree::nbSons()
 
 IntTree* IntTree::getSon(int pos)
 {
+    if (pos < 0 || pos >= sons.size()) {
+        throw std::out_of_range("position non valide\n");
+    }
     return sons.at(pos);
 }
 
 void IntTree::setSon(int pos, IntTree* newSon)
 {
+    if (pos < 0 || pos >= sons.size()) {
+        throw std::out_of_range("position non valide\n");
+    }
     delete sons[pos];
     sons[pos] = newSon;
 }
@@ -49,7 +53,9 @@ void IntTree::addAsLastSon(IntTree* newSon)
 
 void IntTree::removeLastSon()
 {
-    assert(sons.size());
+    if (sons.size() == 0) {
+        throw std::length_error("le noeud n'a pas de descendants");
+    }
     IntTree* a = sons.back();
     delete a;
     sons.pop_back();
