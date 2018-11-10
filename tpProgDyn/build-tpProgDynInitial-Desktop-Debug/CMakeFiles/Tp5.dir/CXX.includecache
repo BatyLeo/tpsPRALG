@@ -7,16 +7,14 @@
 #IncludeRegexTransform: 
 
 /home/leo/Desktop/PRALG/tpProgDyn/tpProgDynInitial/main.cpp
-matrice.h
-/home/leo/Desktop/PRALG/tpProgDyn/tpProgDynInitial/matrice.h
 string
 -
 iostream
 -
 vector
 -
+string
+-
 
 /home/leo/Desktop/PRALG/tpProgDyn/tpProgDynInitial/matrice.cpp
-
-/home/leo/Desktop/PRALG/tpProgDyn/tpProgDynInitial/matrice.h
 
