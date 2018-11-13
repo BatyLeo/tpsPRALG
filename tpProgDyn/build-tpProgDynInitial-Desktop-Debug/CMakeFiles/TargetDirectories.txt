@@ -1,3 +1,0 @@
-/home/leo/Desktop/PRALG/tpProgDyn/build-tpProgDynInitial-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/leo/Desktop/PRALG/tpProgDyn/build-tpProgDynInitial-Desktop-Debug/CMakeFiles/Tp5.dir
-/home/leo/Desktop/PRALG/tpProgDyn/build-tpProgDynInitial-Desktop-Debug/CMakeFiles/edit_cache.dir
