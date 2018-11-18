@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leo/Desktop/PRALG/tpArbre2/tpArbre2Initial/quadtree/example.cpp
+iostream
+-
+quadtree.h
+/home/leo/Desktop/PRALG/tpArbre2/tpArbre2Initial/quadtree/quadtree.h
+
+/home/leo/Desktop/PRALG/tpArbre2/tpArbre2Initial/quadtree/quadtree.h
+string
+-
+iostream
+-
+stdexcept
+-
+sstream
+-
+

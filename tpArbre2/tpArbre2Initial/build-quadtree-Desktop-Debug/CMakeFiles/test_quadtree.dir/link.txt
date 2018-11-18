@@ -1,0 +1,1 @@
+/usr/bin/g++  -std=c++98 -g  -rdynamic CMakeFiles/test_quadtree.dir/example.cpp.o  -o test_quadtree 
