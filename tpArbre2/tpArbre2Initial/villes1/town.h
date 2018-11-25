@@ -74,4 +74,3 @@ public:
 // cartesian coordinates (in kilometers) using the Lambert 93 projection.
 pair<float,float> geoToLambert93(float latitude,float longitude);
 
-int example();

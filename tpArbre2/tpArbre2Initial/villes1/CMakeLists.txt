@@ -6,7 +6,6 @@ project (villes_les_plus_proches)
 # 	        point2d.cpp square.cpp quadrant.cpp neighbors.cpp)
 # rm main.cpp square.cpp quadrant.cpp neighbors.cpp
 
-add_executable (test_villes example.cpp
-    point2d.cpp town.cpp square.cpp quadrant.cpp main.cpp)
+add_executable (test_villes point2d.cpp town.cpp square.cpp quadrant.cpp main.cpp)
 
 add_definitions(-DsrcPath="${CMAKE_CURRENT_SOURCE_DIR}")
