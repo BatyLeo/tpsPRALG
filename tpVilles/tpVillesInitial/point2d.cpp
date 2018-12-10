@@ -9,3 +9,13 @@ ostream &operator<<(ostream &os, Point2D const &pt) {
 ostream &operator<<(ostream &os, Point2D* const &p) {
     return os << *p;
 }
+
+bool Point2D::operator<(const Point2D &pt) const
+{
+    return (_x < pt._x || (_x == pt._x && _y < pt._y));
+}
+
+bool Point2D::operator ==(const Point2D &pt) const
+{
+    return _x == pt._x && _y == pt._y;
+}

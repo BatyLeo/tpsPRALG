@@ -76,6 +76,9 @@ public:
     // Return a vector of towns with given geographic coordinates
     static vector<Town>
     towns_with_lat_lon(const vector<Town> towns, float lat, float lon);
+
+    bool operator<(const Town &town) const;
+    bool operator!=(const Town &town) const;
 };
 
 //

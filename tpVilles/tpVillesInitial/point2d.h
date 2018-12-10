@@ -21,6 +21,8 @@ public:
     // Get coordinates
     inline float x() const { return _x; }
     inline float y() const { return _y; }
+    bool operator<(const Point2D &pt) const;
+    bool operator==(const Point2D & pt) const;
 };
 
 //

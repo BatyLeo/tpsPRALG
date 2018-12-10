@@ -141,6 +141,16 @@ ostream &operator<<(ostream &os, Town* const &townp) {
     return os << *townp;
 }
 
+bool Town::operator<(const Town &town) const
+{
+    return point() < town.point() || (_x == town.x() && _y == town.y() && _name < town.name());
+}
+
+bool Town::operator !=(const Town &town) const
+{
+    return _name != town._name || !(point() == town.point());
+}
+
 
 /*
  * Lambert93 projection utilities
